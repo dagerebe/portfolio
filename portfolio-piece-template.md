@@ -1,12 +1,16 @@
 ---
-name: Portfolio Pie
-
+banner: banner.jpg
+name: Portfolio Piece 1
+images:
+  - src: image-1.jpg
+    caption: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  - src: image-1.jpg
+    caption: Aenean commodo ligula eget dolor. Aenean massa.
+  - src: image-1.jpg
+    caption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+tags:
+	- tool 1
+	- tool 2
+	- tool 3
 ---
-
-main image
-secondary image
-skateches 
-title
-description
-role
-etc..
