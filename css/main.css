@@ -1,0 +1,169 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.hamburger {
+  width: 5em;
+}
+
+.nav {
+  display: none;
+  width: 100%;
+  float: right;
+  overflow: hidden;
+  transition: all 400ms linear;
+  left: 0;
+  position: absolute;
+  top: 3em;
+}
+
+.nav li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: .5em;
+}
+
+.nav-label {
+  float: right;
+  margin-left: 5%;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: grey;
+}
+
+.name-box {
+  position: relative;
+  height: 100vh;
+}
+
+.name-box-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.name {
+  padding-top: 3em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.sub {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.arrow {
+  padding-top: 4em;
+  width: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.para {
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.email {
+  color: #B81E4F;
+  font-weight: 700;
+}
+
+.buttons {
+  width: 4em;
+  display: inline-block;
+}
+
+.bottom {
+  text-align: center;
+}
+
+@media only screen and (min-width: 22em) {
+
+  .pic {
+    width: 14em;
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .bg {
+    padding: 1.5em 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .bg {
+    padding: 1.5em 20%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .bg {
+    padding: 1.5em 25%;
+  }
+
+}
+
+
+
+
+
