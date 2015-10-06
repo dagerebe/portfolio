@@ -38,10 +38,9 @@ img {
   width: 100%;
   float: right;
   overflow: hidden;
-  transition: all 400ms linear;
   left: 0;
   position: absolute;
-  top: 3em;
+  top: 1em;
 }
 
 .nav li {
@@ -52,6 +51,7 @@ img {
 .nav a {
   display: block;
   text-decoration: none;
+  color: black;
   width: 100%;
   padding: .5em;
 }
@@ -73,10 +73,6 @@ img {
   top: -3em;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: grey;
-}
-
 .name-box {
   position: relative;
   height: 100vh;
@@ -93,11 +89,13 @@ img {
   padding-top: 3em;
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 2em;
+  line-height: 1em;
 }
 
 .sub {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .arrow {
@@ -110,12 +108,12 @@ img {
 .para {
   font-weight: 300;
   line-height: 1.4em;
+  text-align: center;
 }
 
 .image {
   position: relative;
   display: inline;
-  padding-bottom: 0;
 }
 
 .plus {
@@ -125,9 +123,9 @@ img {
   width: 8em;
 }
 
-.email {
-  color: #B81E4F;
-  font-weight: 700;
+.bottom {
+  padding-top: 1em;
+  text-align: center;
 }
 
 .buttons {
@@ -135,40 +133,34 @@ img {
   display: inline-block;
 }
 
-.bottom {
-  text-align: center;
+.email {
+  color: #B81E4F;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 22em) {
 
-  .pic {
-    width: 14em;
-    margin: 0 auto;
-  }
+
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .bg {
-    padding: 1.5em 10%;
-  }
+.nav li {
+  display: inline-block;
+}
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .bg {
-    padding: 1.5em 20%;
-  }
+
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  .bg {
-    padding: 1.5em 25%;
-  }
+
 
 }
 
