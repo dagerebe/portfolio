@@ -20,8 +20,15 @@ html {
 }
 
 body {
+  height: 100vh;
   margin: 0;
   padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden:
+  webkit-overflow-scrolling: touch;
+
+  webkit-perspective: 1px;
+  perspective: 1px; 
 }
 
 img {
@@ -29,23 +36,43 @@ img {
 	width: 100%;
 }
 
+.parallax-group {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.back {
+  background-color: lightgrey;
+  -webkit-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  display: block;
+  z-index: 50;
+}
+
+.front {
+  background-color: pink;
+  position: relative;
+  z-index: 200;
+}
+
 .hamburger {
-  width: 5em;
+  width: 4em;
 }
 
 .nav {
   display: none;
   width: 100%;
-  float: right;
   overflow: hidden;
   left: 0;
   position: absolute;
-  top: 1em;
+  top: 3em;
+  z-index: 100;
 }
 
 .nav li {
   text-decoration: none;
   list-style: none;
+  z-index: 100;
 }
 
 .nav a {
@@ -54,6 +81,20 @@ img {
   color: black;
   width: 100%;
   padding: .5em;
+  background-color: white;
+  transition: color 1000ms linear;
+  transition: background-color 1000ms linear;
+  z-index: 100;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: grey;
+}
+
+.ul-push {
+  margin: 0;
+  padding: 0;
 }
 
 .nav-label {
@@ -80,7 +121,7 @@ img {
 
 .name-box-content {
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
   transform: translateY(-50%);
 }
