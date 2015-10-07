@@ -50,7 +50,6 @@ img {
 }
 
 .front {
-  background-color: pink;
   position: relative;
   z-index: 200;
 }
@@ -65,7 +64,7 @@ img {
   overflow: hidden;
   left: 0;
   position: absolute;
-  top: 3em;
+  top: 4.5em;
   z-index: 100;
 }
 
@@ -80,7 +79,7 @@ img {
   text-decoration: none;
   color: black;
   width: 100%;
-  padding: .5em;
+  padding: .5em 1em;
   background-color: white;
   transition: color 1000ms linear;
   transition: background-color 1000ms linear;
@@ -140,11 +139,38 @@ img {
 }
 
 .arrow {
-  padding-top: 4em;
-  width: 4em;
+  padding-top: 2em;
+  width: 3em;
   margin-left: auto;
   margin-right: auto;
+  -webkit-animation: arrow 2s ease-in infinite;
+  animation: arrow 2s ease-in infinite;
 }
+
+@-webkit-keyframes arrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(.8em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(.8em);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 .para {
   font-weight: 300;
@@ -186,10 +212,6 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
-
-.nav li {
-  display: inline-block;
-}
 
 }
 
