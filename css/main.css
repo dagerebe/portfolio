@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  overflow: hidden;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -25,9 +26,9 @@ body {
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden:
-  webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
 
-  webkit-perspective: 1px;
+  -webkit-perspective: 1px;
   perspective: 1px; 
 }
 
@@ -36,26 +37,19 @@ img {
 	width: 100%;
 }
 
-.parallax-group {
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-}
-
 .back {
-  background-color: lightgrey;
-  -webkit-transform: translateZ(-1px) scale(2);
-  transform: translateZ(-1px) scale(2);
   display: block;
-  z-index: 50;
-}
+  z-index: 1;
+  background-image: url(../img/brickwall.jpg);
+  width: 100%;
+  background-size: 300%;
+  overflow: hidden;
+  min-height: 23em;
 
-.front {
-  position: relative;
-  z-index: 200;
 }
 
 .hamburger {
-  width: 4em;
+  width: 3.5em;
 }
 
 .nav {
@@ -64,14 +58,14 @@ img {
   overflow: hidden;
   left: 0;
   position: absolute;
-  top: 4.5em;
-  z-index: 100;
+  top: 4em;
+  z-index: 10;
 }
 
 .nav li {
   text-decoration: none;
   list-style: none;
-  z-index: 100;
+  z-index: 11;
 }
 
 .nav a {
@@ -79,11 +73,11 @@ img {
   text-decoration: none;
   color: black;
   width: 100%;
-  padding: .5em 1em;
+  padding: .5em 2em;
   background-color: white;
   transition: color 1000ms linear;
   transition: background-color 1000ms linear;
-  z-index: 100;
+  z-index: 12;
 }
 
 .nav a:hover {
@@ -98,10 +92,9 @@ img {
 
 .nav-label {
   float: right;
-  margin-left: 5%;
   cursor: pointer;
   position: relative;
-  z-index: 100;
+  z-index: 14;
 }
 
 .nav-check:checked ~ .nav {
@@ -110,23 +103,21 @@ img {
 
 .nav-check {
   position: absolute;
-  top: -3em;
+  margin-top: -3em;
 }
 
 .name-box {
   position: relative;
-  height: 100vh;
 }
 
 .name-box-content {
   position: absolute;
-  top: 45%;
+  top: 50%;
+  transform: translateY(80%);
   width: 100%;
-  transform: translateY(-50%);
 }
 
 .name {
-  padding-top: 3em;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2em;
@@ -138,44 +129,43 @@ img {
   font-weight: 800;
 }
 
-.arrow {
-  padding-top: 2em;
+.tri-1 {
+  position: relative;
   width: 3em;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-animation: arrow 2s ease-in infinite;
-  animation: arrow 2s ease-in infinite;
+  top: -38px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 
-@-webkit-keyframes arrow {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(.8em);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.tri-2 {
+  position: relative;
+  width: 3em;
+  top: -38px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 
-@keyframes arrow {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(.8em);
-  }
-  100% {
-    transform: translateY(0);
-  }
+.front {
+  position: absolute;
+  background-color: white
+  z-index: 2;
 }
 
+.para-title {
+  text-align: center;
+}
 
 .para {
   font-weight: 300;
   line-height: 1.4em;
   text-align: center;
+}
+
+.work {
+  background-color: rgb(240, 240, 240);
+  z-index: 5;
 }
 
 .image {
@@ -187,22 +177,40 @@ img {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 8em;
+  width: 7em;
 }
 
-.bottom {
+.front-two {
+  background-color: lightgrey;
+  z-index: 3;
+}
+
+.me {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
   padding-top: 1em;
-  text-align: center;
+  border-radius: 50%;
 }
 
 .buttons {
+  padding-top: 2em;
   width: 4em;
   display: inline-block;
 }
 
 .email {
-  color: #B81E4F;
+  text-align: center;
   font-weight: 700;
+}
+
+.main-image {
+  position: relative;
+  height: 100vh;
+  background-image: url("http://placehold.it/1200x1125") no-repeat center top;
+  background-size: cover;
+  padding: 0;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 22em) {
