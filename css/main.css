@@ -140,7 +140,7 @@ img {
 .tri-2 {
   position: relative;
   width: 3em;
-  top: -38px;
+  top: -18px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
@@ -263,6 +263,15 @@ img {
 
 @media only screen and (min-width: 33em) {
 
+  .nav {
+    top: 1em;
+    left: auto;
+  }
+
+  .nav li {
+    display: inline-block;
+  }  
+
   .back {
     background-size: 155%;
   }
@@ -276,8 +285,31 @@ img {
     width: 5em;
   }
 
+  .tri-2 {
+    top: -26px;
+    width: 5em;
+  }
+
+  .tri-3 {
+    top: -30px;
+    width: 5em;
+  }
+
+  .tri-reverse {
+    top: -43px;
+    width: 5em;
+  }
+
   .footer-message {
     padding-top: 1em;
+  }
+
+  .para-title {
+    margin-top: -1em;
+  }
+
+  .work {
+    padding-bottom: 4em;
   }
 
 }
@@ -300,6 +332,15 @@ img {
 }
 
 @media only screen and (min-width: 90em) {
+
+  .work {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .para {
+    padding: 0 20%;
+  }
 
 
 
