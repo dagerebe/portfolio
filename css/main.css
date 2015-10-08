@@ -218,6 +218,15 @@ img {
   min-height: 18em;
 }
 
+.tri-4 {
+  position: relative;
+  width: 3em;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
 .about-title {
   margin-top: -.5em;
   text-transform: uppercase;
@@ -231,13 +240,14 @@ img {
 .tri-reverse {
   position: relative;
   width: 3em;
-  top: -22px;
+  top: -1px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
 }
 
 .prev-next {
+  padding-top: 1em;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
@@ -253,6 +263,10 @@ img {
   .back {
     background-size: 230%;
     min-height: 23em;
+  }
+
+  .main-image {
+    background-size: 190%;
   }
 
   .name-box-content {
@@ -276,6 +290,10 @@ img {
     background-size: 155%;
   }
 
+  .main-image {
+    background-size: 120%;
+  }
+
   .para {
     padding: 0 10%;
   }
@@ -295,8 +313,14 @@ img {
     width: 5em;
   }
 
+  .tri-4 {
+    top: -30px;
+    width: 5em;
+  }
+
+
   .tri-reverse {
-    top: -43px;
+    top: -6px;
     width: 5em;
   }
 
@@ -309,7 +333,15 @@ img {
   }
 
   .work {
-    padding-bottom: 4em;
+    padding-bottom: 3em;
+  }
+
+  .about-title {
+    padding: 0 10%;
+  }
+
+  .about {
+    padding: 0 10%;
   }
 
 }
@@ -321,12 +353,25 @@ img {
     min-height: 25em;
   }
 
+  .main-image {
+    background-size: 100%;
+    min-height: 23em;
+  }
+
   .para {
     padding: 0 15%;
   }
 
   .tri-1 {
     top: -55px;
+  }
+
+  .about-title {
+    padding: 0 15%;
+  }
+
+  .about {
+    padding: 0 15%;
   }
 
 }
@@ -342,7 +387,13 @@ img {
     padding: 0 20%;
   }
 
+  .about-title {
+    padding: 0 20%;
+  }
 
+  .about {
+    padding: 0 20%;
+  }
 
 }
 
