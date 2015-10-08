@@ -166,6 +166,7 @@ img {
 .work {
   background-color: rgb(240, 240, 240);
   z-index: 5;
+  padding-bottom: 2em;
 }
 
 .image {
@@ -180,21 +181,22 @@ img {
   width: 7em;
 }
 
-.front-two {
-  background-color: lightgrey;
-  z-index: 3;
+.footer {
+  height: 10em;
+  position: absolute;
 }
 
-.me {
-  margin-right: auto;
-  margin-left: auto;
-  width: 80%;
-  padding-top: 1em;
-  border-radius: 50%;
+.tri-3 {
+  position: relative;
+  width: 3em;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
 }
 
 .buttons {
-  padding-top: 2em;
+  padding-top: 1em;
   width: 4em;
   display: inline-block;
 }
@@ -202,15 +204,6 @@ img {
 .email {
   text-align: center;
   font-weight: 700;
-}
-
-.main-image {
-  position: relative;
-  height: 100vh;
-  background-image: url("http://placehold.it/1200x1125") no-repeat center top;
-  background-size: cover;
-  padding: 0;
-  overflow: hidden;
 }
 
 @media only screen and (min-width: 22em) {
