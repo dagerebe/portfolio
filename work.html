@@ -11,66 +11,74 @@
 </head>
 <body>
 
-  <header role="banner" class="gutter">
+  <header role="banner" class="island main-image">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label class="nav-label" for="nav-check"><img class="hamburger" src="img/hamburger.svg" alt="navigation-button"></label>
     <nav class="nav" role="navigation">
       <ul class="ul-push">
         <li><a href="index.html">Home</a></li>
-        <li><a href="work.html">Work</a></li>
-        <li><a href="#">Contact Me</a></li>
+        <li><a href="index.html" href="#projects">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
-    <div class="main-image">
-      <h2>Title of Piece</h2>
-      <h4>Subtitle</h4>
+    <div class="text-center name-box">
+      <div class="name-box-content">
+        <h1 class="name push-half">Name of piece</h1>
+        <h3 class="micro sub">Subtitle for piece</h3>
+      </div>
     </div>
   </header>
 
-  <main role="main" id="projects" class="front">
+
+  <main role="main">
     <div class="grid">
       <div class="island unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-        <p class="para">I am a very passionate designer and I love to learn new things and challenge myself. Currently I am finishing my last year of the graphic design course at Algonquin College. I can not wait to start my career and jump into the big sea of designer and share my talents and ideas!</p>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
-      </div>
-      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        <img src="http://placehold.it/400x400">
-        <a href="work.html"><img class="gutter plus" src="img/corner-plus.svg"></a>
+        <img class="tri-1" src="img/white-tri.svg">
+        <h6 class="about-title push-none">Goal</h4>
+        <p class="about micro">This will be about what the goal of my piece was.</p>
+        <h6 class="about-title push-none">Obstacles</h4>
+        <p class="about micro">I will then talk about what obstacles I encountered during the process</p>
+        <h6 class="about-title push-none">Outcome</h4>
+        <p class="about micro">I will then talk about why I did what I did to accomplish the goal. And maybe what I enjoyed and didnt enjoy about the project.</p>
       </div>
     </div>
+  <div class="work">
+    <div class="grid">
+      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <img class="tri-reverse" src="img/reverse-white-tri.svg">
+        <img src="http://placehold.it/400x400">
+      </div>
+      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <img src="http://placehold.it/400x400">
+      </div>
+      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <img src="http://placehold.it/400x400">
+      </div>
+      <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <img src="http://placehold.it/400x400">
+      </div>
+      <div class="prev-next gutter pad-top unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="work.html"><p>< Prev</p></a>
+      </div>
+      <div class="prev-next gutter pad-top unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
+        <a href="work.html"><p>Next ></p></a>
+      </div>
+
+    </div>
+  </div>
   </main>
 
-  <footer role="contentinfo" class="front-two">
+  <footer role="contentinfo" class="footer" id="contact">
     <div class="grid">
       <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+        <img class="tri-3" src="img/white-tri.svg">
+        <p class="footer-message">Check me out even more, or send me a message :)</p>
         <a class="buttons" href="https://www.behance.net/rebecca_dagenais"><img src="img/behance.svg" alt="icon for behance"></a>
         <a class="buttons" href="https://www.linkedin.com/profile/view?id=AAIAABNfgUwBxebOvP5GgqR9tla3RPA0ACjc6xI&trk=nav_responsive_tab_profile_pic"><img src="img/linkedin.svg" alt="icon for linkedin"></a>
-      </div>
-      <div class="gutter unit unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-        <p class="kilo email">hello@rebeccadagenais.ca</p>
+        <a class="buttons" href="mailto:hello@rebeccadagenais.ca"><img src="img/mail.svg" alt="icon for email"></a>
       </div>
     </div>
   </footer>
-</div>
 
 </body>
 </html>

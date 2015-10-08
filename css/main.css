@@ -45,7 +45,6 @@ img {
   background-size: 300%;
   overflow: hidden;
   min-height: 23em;
-
 }
 
 .hamburger {
@@ -182,6 +181,7 @@ img {
 }
 
 .footer {
+  width: 100%;
   height: 10em;
   position: absolute;
 }
@@ -195,30 +195,107 @@ img {
   z-index: 100;
 }
 
+.button-holder {
+  text-align: center;
+}
+
 .buttons {
-  padding-top: 1em;
   width: 4em;
   display: inline-block;
 }
 
-.email {
+.footer-message {
   text-align: center;
+}
+
+.main-image {
+  display: block;
+  z-index: 1;
+  background-image: url(../img/brickwall.jpg);
+  width: 100%;
+  background-size: 250%;
+  overflow: hidden;
+  min-height: 18em;
+}
+
+.about-title {
+  margin-top: -.5em;
+  text-transform: uppercase;
+}
+
+.about {
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+.tri-reverse {
+  position: relative;
+  width: 3em;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.prev-next {
+  text-align: center;
+  text-transform: uppercase;
   font-weight: 700;
+}
+
+.prev-next a {
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (min-width: 22em) {
 
+  .back {
+    background-size: 230%;
+    min-height: 23em;
+  }
 
+  .name-box-content {
+    top: 2em;
+  }
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 33em) {
+
+  .back {
+    background-size: 155%;
+  }
+
+  .para {
+    padding: 0 10%;
+  }
+
+  .tri-1 {
+    top: -43px;
+    width: 5em;
+  }
+
+  .footer-message {
+    padding-top: 1em;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .back {
+    background-size: 100%;
+    min-height: 25em;
+  }
 
+  .para {
+    padding: 0 15%;
+  }
+
+  .tri-1 {
+    top: -55px;
+  }
 
 }
 
