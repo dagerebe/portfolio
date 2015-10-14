@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: auto;
-  overflow-x: hidden:
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 
   -webkit-perspective: 1px;
@@ -41,6 +41,7 @@ img {
   display: block;
   z-index: 1;
   background-image: url(../img/brickwall.jpg);
+  background-color: grey;
   width: 100%;
   background-size: 300%;
   overflow: hidden;
@@ -148,7 +149,7 @@ img {
 
 .front {
   position: absolute;
-  background-color: white
+  background-color: white;
   z-index: 2;
 }
 
@@ -197,6 +198,7 @@ img {
 
 .button-holder {
   text-align: center;
+  width: 100%;
 }
 
 .buttons {
