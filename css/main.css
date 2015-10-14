@@ -104,6 +104,7 @@ img {
 .nav-check {
   position: absolute;
   margin-top: -3em;
+  z-index: -1;
 }
 
 .name-box {
