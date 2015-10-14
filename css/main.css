@@ -278,6 +278,10 @@ img {
     background-size: 190%;
   }
 
+  .nav-check {
+    margin-top: -4em;
+  }  
+
 }
 
 @media only screen and (min-width: 33em) {
