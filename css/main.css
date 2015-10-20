@@ -90,13 +90,15 @@ img {
   z-index: 11;
 }
 
+.current {
+  color: red;
+}
+
 .nav a {
   display: block;
   text-decoration: none;
-  color: black;
   width: 100%;
   padding: .5em 2em;
-  background-color: white;
   transition: color 500ms linear;
   transition: background-color 500ms linear;
   z-index: 12;
