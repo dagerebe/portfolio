@@ -14,9 +14,10 @@ layout: default
     <img class="tri-2" src="img/lightgrey-tri.svg" alt="">
     <div class="grid">
       <ul class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-        {% for preview in site.posts %}
+        {% for preview in site.data.preview %}
           <li>
-            <a href="{{site.baseurl}}{{work.url}}">{{preview.title}}</a>
+            <a href="{{site.baseurl}}/preview/{{work.url}}/">{{preview.title}}</a>
+            {{preview.content | markdownify}}
           </li>
         {% endfor %}
       </ul>
