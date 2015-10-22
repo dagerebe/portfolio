@@ -1,7 +1,9 @@
 - title: Portfolio Peice 1
-  folder: Portfolio Peice 1
   content: 'content'
+  image: image-of-portfolio-peice.jpg
+  corner: corner-plus.svg
 
 - title: Portfolio Peice 2
-  folder: Portfolio Peice 2
   content: 'content'
+  image: image-of-portfolio-peice.jpg
+  corner: corner-plus.svg

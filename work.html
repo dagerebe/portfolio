@@ -2,6 +2,14 @@
 layout: work
 ---
 
+<ul>
+  {% for work in site.pages %}
+    <li>
+      <img src="{{site.baseurl}}/img/{{portfolio-piece-template.banner}}" alt="">
+    </li>
+  {% endfor %}
+</ul>
+
   <main role="main">
     <img class="tri-4" src="img/white-tri.svg" alt="">
     <div class="grid">
