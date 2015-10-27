@@ -1,5 +1,6 @@
 ---
-title: Portfolio Peice
+meta:
+title:
 banner:  brickwall.jpg
 type:  portfolio
 name:  Portfolio Piece 1
