@@ -17,8 +17,8 @@ layout: default
         {% for preview in site.data.preview %}
           <li>
             <a href="{{site.baseurl}}/work/{{work.url}}">{{preview.title}}</a>
-            <img src="{{site.baseurl}}/img/{{preview.image}}" alt="">
-            <img class="corner-plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt="">
+            <img class="image" src="{{site.baseurl}}/img/{{preview.image}}" alt="">
+            <img class="plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt="">
             {{preview.content | markdownify}}
           </li>
         {% endfor %}
