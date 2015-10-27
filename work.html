@@ -3,9 +3,10 @@ layout: work
 ---
 
 <ul>
-  {% for portfolio-peice-template in site.pages %}
+  {% for work in site.portwork %}
+    {% if work.type == 'portfolio' %}
     <li>
-      {{portfolio-peice-template.title}}
+      {{portwork.name}}
     </li>
   {% endfor %}
 </ul>

@@ -1,5 +1,6 @@
 ---
 banner: brickwall.jpg
+type: portfolio
 name: Portfolio Piece 1
 sub-title: Blah
 goal: This will be about what the goal of my piece was.
