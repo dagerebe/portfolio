@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Rebecca Dagenais</title>
+  <title>{% if page.title %}{page.title}} · {% endif %}Rebecca Dagenais</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
@@ -16,7 +16,7 @@
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
-  <header role="banner" id="top" class="island back">
+  <header role="banner" id="top" class="island back {{page.backClass}}">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label class="nav-label" for="nav-check"><img class="hamburger" src="img/hamburger.svg" alt="navigation-button"></label>
           <nav class="nav" role="navigation" id="nav">

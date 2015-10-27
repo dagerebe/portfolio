@@ -61,13 +61,24 @@ img {
 .back {
   display: block;
   z-index: 2;
-  background-image: url(../img/brickwall.jpg);
-  background-color: grey;
+  background: #898989 url(../img/brickwall.jpg) no-repeat center center;
   width: 100%;
   background-size: 300%;
   overflow: hidden;
   min-height: 23em;
   position: relative;
+}
+
+.back-work {
+  display: block;
+  z-index: 2;
+  background: #898989;
+  width: 100%;
+  background-size: 300%;
+  overflow: hidden;
+  min-height: 23em;
+  position: relative;
+
 }
 
 .hamburger {

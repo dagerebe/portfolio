@@ -1,48 +1,13 @@
 ---
-layout: work
+layout: default
+backClass: back-work
 ---
 
 <ul>
   {% for work in site.portwork %}
-    {% if work.type == 'portfolio' %}
     <li>
+      <img src="{{site.baseurl}}/img{{portwork.banner}}" alt="">
       {{portwork.name}}
     </li>
-  {% endfor %}
+    {% endfor %}
 </ul>
-
-  <main role="main">
-    <img src="{{site.baseurl}}/img/{{portfolio-piece-template.banner}}" alt="">
-    <img class="tri-4" src="img/white-tri.svg" alt="">
-    <div class="grid">
-      <div class="island unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-        <h6 class="about-title push-none">Goal</h6>
-        <p class="about micro">This will be about what the goal of my piece was.</p>
-        <h6 class="about-title push-none">Obstacles</h6>
-        <p class="about micro">I will then talk about what obstacles I encountered during the process</p>
-        <h6 class="about-title push-none">Outcome</h6>
-        <p class="about micro">I will then talk about why I did what I did to accomplish the goal. And maybe what I enjoyed and didnt enjoy about the project.</p>
-      </div>
-    </div>
-    <div class="work-work">
-      <img class="tri-reverse" src="img/reverse-white-tri.svg" alt="">
-      <div class="grid">
-        <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <img src="img/image-of-specific-portfolio-peice.jpg" alt="name of piece">
-        </div>
-        <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <img src="img/image-of-specific-portfolio-peice.jpg" alt="name of piece">
-        </div>
-        <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <img src="img/image-of-specific-portfolio-peice.jpg" alt="name of piece">
-        </div>
-        <div class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-          <img src="img/image-of-specific-portfolio-peice.jpg" alt="name of piece">
-        </div>
-      </div>
-      <div class="prev-next">
-        <a href="work.html"><p>< Prev</p></a>
-        <a href="work.html"><p>Next ></p></a>
-      </div>
-    </div>
-  </main>
