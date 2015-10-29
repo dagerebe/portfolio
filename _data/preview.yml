@@ -2,6 +2,7 @@
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: portwork
 
 - title: Portfolio Peice 2
   content: 'content'
@@ -9,6 +10,21 @@
   corner: corner-plus.svg
 
 - title: Portfolio Peice 3
+  content: 'content'
+  image: image-of-portfolio-peice.jpg
+  corner: corner-plus.svg
+
+- title: Portfolio Peice 4
+  content: 'content'
+  image: image-of-portfolio-peice.jpg
+  corner: corner-plus.svg
+
+- title: Portfolio Peice 5
+  content: 'content'
+  image: image-of-portfolio-peice.jpg
+  corner: corner-plus.svg
+
+- title: Portfolio Peice 6
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg

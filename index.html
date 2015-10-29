@@ -1,5 +1,8 @@
 ---
 layout: default
+meta: Welcome to my portfolio website
+supertitle: Rebecca Dagenais
+banner:  brickwall.jpg
 ---
 
   <main role="main" id="main">
@@ -16,10 +19,8 @@ layout: default
        <ul>
         {% for preview in site.data.preview %}
           <li class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-            <a href="{{site.baseurl}}/work/{{work.url}}">{{preview.title}}</a>
             <img src="{{site.baseurl}}/img/{{preview.image}}" alt="">
-            <img class="plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt="">
-            {{preview.content | markdownify}}
+            <a href="{{site.baseurl}}/work/{{preview.url}}"><img class="gutter plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt=""></a>
           </li>
         {% endfor %}
       </ul>

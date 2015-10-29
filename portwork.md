@@ -1,9 +1,10 @@
 ---
+layout: work
 meta:
 title:
+supertitle: Portfolio Piece 1
 banner:  brickwall.jpg
 type:  portfolio
-name:  Portfolio Piece 1
 sub-title:  Blah
 goal:  This will be about what the goal of my piece was.
 obstacles: I will then talk about what obstacles I encountered during the process
