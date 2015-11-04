@@ -1,9 +1,9 @@
 ---
 layout: work
 meta: blah
-title: Portfolio Piece 1
+title: Portfolio Piece 4
 banner: brickwall.jpg
-supertitle: Portfolio Piece 1
+supertitle: Portfolio Piece 4
 supersub: Description of peice
 goal: This will be about what the goal of my piece was.
 obstacles: I will then talk about what obstacles I encountered during the process.

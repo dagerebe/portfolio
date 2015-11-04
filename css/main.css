@@ -37,6 +37,11 @@ img {
 	width: 100%;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .skip-links {
   margin: 0;
   padding: 0;
@@ -213,6 +218,7 @@ img {
 .image {
   position: relative;
   display: inline;
+  float: left;
 }
 
 .plus {
