@@ -3,7 +3,7 @@ layout: work
 title: Portfolio Piece 2
 meta: Description of portfolio peice
 banner: brickwall.jpg
-supertitle: Portfolio Piece 2
+supertitle: wordmark-black.svg
 supersub: Description of peice
 goal: This will be about what the goal of my piece was.
 obstacles: I will then talk about what obstacles I encountered during the process.

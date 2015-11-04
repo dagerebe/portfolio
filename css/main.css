@@ -163,14 +163,14 @@ ul {
 }
 
 .name {
-  text-transform: uppercase;
-  font-weight: 300;
-  line-height: 1em;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: .5em;
 }
 
 .sub {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .tri-1 {
@@ -386,6 +386,10 @@ ul {
     background-size: 120%;
   }
 
+  .name {
+    width: 40%;
+  }
+
   .para {
     padding: 0 10%;
   }
@@ -452,6 +456,10 @@ ul {
   .main-image {
     background-size: 100%;
     min-height: 23em;
+  }
+
+  .name {
+    width: 30%;
   }
 
   .para {

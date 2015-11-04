@@ -17,7 +17,7 @@
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
-  <header role="banner" id="top" class="island back" style="background-image: url({{site.baseurl}}/img/{{page.banner}});">
+  <header role="banner" id="top" class="island back overlay" style="background-image: url({{site.baseurl}}/img/{{page.banner}});">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label class="nav-label" for="nav-check"><img class="hamburger" src="{{site.baseurl}}/img/hamburger.svg" alt="navigation-button"></label>
           <nav class="nav" role="navigation" id="nav">
@@ -28,8 +28,8 @@
       </ul>
     </nav>
     <div class="name-box-content">
-      <h1 class="yotta name push-half">{{page.supertitle}}</h1>
-      <h6 class="sub">{{page.supersub}}</h6>
+      <img class="name push-half" src="{{site.baseurl}}/img/{{page.supertitle}}">
+      <h6 class="sub micro">{{page.supersub}}</h6>
     </div>
   </header>
 
