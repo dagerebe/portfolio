@@ -1,7 +1,7 @@
 ---
 layout: work
-meta: blah
 title: Portfolio Piece 1
+meta: Description of portfolio peice
 banner: brickwall.jpg
 supertitle: Portfolio Piece 1
 supersub: Description of peice

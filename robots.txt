@@ -1,3 +1,3 @@
-Sitemap: https://http://dagerebe.github.io/portfolio//sitemap.xml
+Sitemap: http://dagerebe.github.io/portfolio/ bsitemap.xml
 
-User-Agent: *
+User-agent: *
