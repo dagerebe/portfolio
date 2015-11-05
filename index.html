@@ -22,7 +22,7 @@ banner:  brickwall.jpg
         {% for preview in site.data.preview %}
           <li class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
             <img src="{{site.baseurl}}/img/{{preview.image}}" alt="">
-            <a href="{{site.baseurl}}/work/{{piece-one.url}}"><img class="gutter plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt=""></a>
+            <a href="{{site.baseurl}}/work/{{preview.url}}"><img class="gutter plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt=""></a>
           </li>
         {% endfor %}
       </ul>

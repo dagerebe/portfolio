@@ -2,6 +2,8 @@
 layout: work
 title: Portfolio Piece 6
 meta: Description of portfolio peice
+next-piece: "/piece-one/"
+prev-piece: "/piece-five/"
 banner: brickwall.jpg
 supertitle: wordmark-black.svg
 supersub: Description of peice

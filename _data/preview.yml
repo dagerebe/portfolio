@@ -2,29 +2,34 @@
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
-  url: portwork
+  url: piece-one
 
 - title: Portfolio Peice 2
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: piece-two
 
 - title: Portfolio Peice 3
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: piece-three
 
 - title: Portfolio Peice 4
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: piece-four
 
 - title: Portfolio Peice 5
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: piece-five
 
 - title: Portfolio Peice 6
   content: 'content'
   image: image-of-portfolio-peice.jpg
   corner: corner-plus.svg
+  url: piece-six
