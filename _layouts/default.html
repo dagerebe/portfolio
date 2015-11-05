@@ -17,7 +17,8 @@
     <li><a href="#main">Skip to main content</a></li>
   </ul>
 
-  <header role="banner" id="top" class="island back overlay" style="background-image: url({{site.baseurl}}/img/{{page.banner}});">
+<div class="island">
+  <header role="banner" id="top" class="island back" style="background-image: url({{site.baseurl}}/img/{{page.banner}});">
     <input type="checkbox" class="nav-check" id="nav-check">
     <label class="nav-label" for="nav-check"><img class="hamburger" src="{{site.baseurl}}/img/hamburger.svg" alt="navigation-button"></label>
           <nav class="nav" role="navigation" id="nav">
@@ -32,6 +33,8 @@
       <h6 class="sub micro">{{page.supersub}}</h6>
     </div>
   </header>
+</div>
+<img class="tri-1" src="img/white-tri.svg" alt="">
 
 {{content}}
 

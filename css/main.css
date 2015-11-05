@@ -67,8 +67,7 @@ ul {
   display: block;
   z-index: 2;
   background: #898989 url(../img/brickwall.jpg) no-repeat center center;
-  width: 100%;
-  background-size: 300%;
+  background-size: 260%;
   overflow: hidden;
   min-height: 23em;
   position: relative;
@@ -170,13 +169,15 @@ ul {
 
 .sub {
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 1px black;
 }
 
 .tri-1 {
   position: relative;
   width: 3em;
-  top: -38px;
+  bottom: 3em;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -358,7 +359,7 @@ ul {
   }
 
   .back {
-    background-size: 230%;
+    background-size: 200%;
     min-height: 23em;
   }
 
@@ -380,6 +381,7 @@ ul {
 
   .back {
     background-size: 155%;
+    min-height: 30em;
   }
 
   .main-image {
@@ -445,7 +447,7 @@ ul {
 
   .back {
     background-size: 100%;
-    min-height: 25em;
+    height: 35em;
   }
 
   .work-work {
@@ -490,6 +492,10 @@ ul {
   .work-work {
     padding-right: 20%;
     padding-left: 20%;
+  }
+
+  .back {
+    min-height: 26em;
   }
 
   .para {
