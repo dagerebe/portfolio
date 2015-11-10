@@ -1,12 +1,12 @@
-- title: Portfolio Peice 1
+- title: Isometric Illustration
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: isomatric_square.jpg
   corner: corner-plus.svg
   url: piece-one
 
-- title: Portfolio Peice 2
+- title: Twizzle App
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: twizzle_square.jpg
   corner: corner-plus.svg
   url: piece-two
 
