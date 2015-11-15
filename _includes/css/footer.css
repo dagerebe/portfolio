@@ -1,0 +1,52 @@
+.footer {
+  width: 100%;
+  height: 10em;
+  position: absolute;
+}
+
+.footer-message {
+  text-align: center;
+}
+
+.button-holder {
+  text-align: center;
+  width: 100%;
+}
+
+.buttons {
+  width: 4em;
+  display: inline-block;
+}
+
+.top {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  padding-top: 2em;
+}
+
+@media only screen and (min-width: 22em) {
+
+
+
+}
+
+@media only screen and (min-width: 33em) {
+
+  .footer-message {
+    padding-top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
+}

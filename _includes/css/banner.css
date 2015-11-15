@@ -1,0 +1,174 @@
+.back {
+  display: block;
+  z-index: 2;
+  background: #898989 url(../img/brickwall.jpg) no-repeat center center;
+  background-size: 260%;
+  overflow: hidden;
+  min-height: 23em;
+  position: relative;
+}
+
+.nav {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  left: 0;
+  position: absolute;
+  top: 4em;
+  z-index: 10;
+}
+
+.nav li {
+  text-decoration: none;
+  list-style: none;
+  z-index: 11;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: .5em 2em;
+  transition: color 500ms linear;
+  transition: background-color 500ms linear;
+  z-index: 12;
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: grey;
+}
+
+.nav-check {
+  position: absolute;
+  margin-top: -5em;
+  z-index: 1;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  z-index: 14;
+}
+
+.hamburger {
+  width: 2.5em;
+}
+
+.ul-push {
+  margin: 0;
+  padding: 0;
+}
+
+.name-box-content {
+  position: absolute;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 0 5%;
+}
+
+.name {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: .5em;
+}
+
+.sub {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 1px black;
+}
+
+@media only screen and (min-width: 22em) {
+
+  .back {
+    background-size: 200%;
+    min-height: 23em;
+  }
+
+  .nav {
+    padding: 0 5%;
+    display: block;
+    top: 1em;
+    right: 0;
+    text-align: right;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav a {
+    color: rgb(140, 140, 140);
+    background: none;
+    width: 100%;
+    padding: .5em .8em;
+    transition: color 500ms linear;
+  }
+
+  .nav a:hover {
+    color: black;
+    background: none;
+  }
+
+  .nav-check {
+    margin-top: -4em;
+  }  
+
+  .hamburger {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (min-width: 33em) {
+
+  .back {
+    background-size: 155%;
+    min-height: 30em;
+  }
+
+  .nav-check {
+    margin-top: -5em;
+  } 
+
+  .name {
+    width: 40%;
+  } 
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .back {
+    background-size: 100%;
+    height: 35em;
+  }
+
+  .name {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .back {
+    min-height: 26em;
+  }
+
+}

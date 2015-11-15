@@ -1,0 +1,172 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  -webkit-perspective: 1px;
+  perspective: 1px; 
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: grey;
+  color: white;
+  padding: 0.5em 0.75em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 0;
+  z-index: 100;
+}
+
+.tri-2 {
+  position: relative;
+  width: 3em;
+  top: -18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.tri-3 {
+  position: relative;
+  width: 3em;
+  top: -18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.tri-2 {
+   top: -26px;
+   width: 5em;
+ }
+
+.tri-1 {
+  position: relative;
+  width: 3em;
+  bottom: 3em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.tri-4 {
+  position: relative;
+  width: 3em;
+  top: -18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.tri-reverse {
+  position: relative;
+  width: 3em;
+  top: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+@media only screen and (min-width: 22em) {
+
+
+}
+
+@media only screen and (min-width: 33em) {
+
+  .tri-1 {
+    top: -43px;
+    width: 5em;
+  }
+
+  .tri-2 {
+    top: -26px;
+    width: 5em;
+  }
+
+  .tri-3 {
+    top: -30px;
+    width: 5em;
+  }
+
+  .tri-4 {
+    top: -30px;
+    width: 5em;
+  }
+
+  .tri-reverse {
+    top: -6px;
+    width: 5em;
+  }
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .tri-1 {
+    top: -55px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+}
+
+
+
+
+

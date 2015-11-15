@@ -1,0 +1,51 @@
+.about-title {
+  margin-top: -.5em;
+  text-transform: uppercase;
+}
+
+.about {
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+@media only screen and (min-width: 22em) {
+
+
+
+}
+
+@media only screen and (min-width: 33em) {
+
+  .about-title {
+    padding: 0 10%;
+  }
+
+  .about {
+    padding: 0 10%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	.about-title {
+    padding: 0 15%;
+  }
+
+  .about {
+    padding: 0 15%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .about-title {
+    padding: 0 20%;
+  }
+
+  .about {
+    padding: 0 20%;
+  }
+
+}
