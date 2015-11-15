@@ -33,6 +33,7 @@
   transition: background-color 500ms linear;
   z-index: 12;
   font-weight: 600;
+  color: white;
 }
 
 .nav a:hover {
