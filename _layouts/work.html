@@ -18,7 +18,9 @@ meta: Please enjoy looking thrugh my portfolio peices
 	        {% for img in page.images %}
 	        	  <img class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2" src="{{site.baseurl}}/img/{{img}}" alt"">
 	        {% endfor %}
-	        <p>{{page.tags}}</p>
+	        {% for img in page.tags %}
+	        <img class="image" src="{{site.baseurl}}/img/{{img}}" alt"">
+	        {% endfor %}
 	     </li>
 	  </ul>
 	</div>

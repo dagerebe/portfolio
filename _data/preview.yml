@@ -10,26 +10,32 @@
   corner: corner-plus.svg
   url: piece-two
 
-- title: Portfolio Peice 3
+- title: Quotebook
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: quotebook_square.jpg
   corner: corner-plus.svg
   url: piece-three
 
-- title: Portfolio Peice 4
+- title: How to train your dragon Poster
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: dragon_square.jpg
   corner: corner-plus.svg
   url: piece-four
 
-- title: Portfolio Peice 5
+- title: Izze Sparkling Juice Campaign
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: izze_square.jpg
   corner: corner-plus.svg
   url: piece-five
 
-- title: Portfolio Peice 6
+- title: Unico Package Repackage
   content: 'content'
-  image: image-of-portfolio-peice.jpg
+  image: unico_square.jpg
+  corner: corner-plus.svg
+  url: piece-six
+
+- title: Magazine Layout
+  content: 'content'
+  image: magazine_square.jpg
   corner: corner-plus.svg
   url: piece-six
