@@ -14,8 +14,11 @@
   overflow: hidden;
   left: 0;
   position: absolute;
-  top: 4em;
+  top: 0;
   z-index: 10;
+  background-color: rgba(229, 39, 86, .7);
+  padding-top: 1.2em;
+  text-align: center;
 }
 
 .nav li {
@@ -29,16 +32,9 @@
   text-decoration: none;
   width: 100%;
   padding: .5em 2em;
-  transition: color 500ms linear;
-  transition: background-color 500ms linear;
   z-index: 12;
   font-weight: 600;
   color: white;
-}
-
-.nav a:hover {
-  color: white;
-  background-color: grey;
 }
 
 .nav-check {
@@ -81,35 +77,53 @@
 }
 
 .name {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: .5em;
 }
 
 .sub {
-  padding-top: 1em;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
   color: white;
+  font-size: .8em;
 }
 
 @media only screen and (min-width: 22em) {
 
   .back {
-    background-size: 200%;
+    background-size: 180%;
     min-height: 23em;
+  }
+
+  .hamburger {
+    width: 3em;
   }
 
   .nav-check {
     margin-top: -4em;
   }  
 
+  .name {
+    width: 65%;
+    margin: -2em auto 0 auto;
+    padding-bottom: .5em;
+  }
+
+  .sub {
+    font-size: .9em;
+  }
+
 }
 
 @media only screen and (min-width: 33em) {
 
+  .banner-space {
+    padding: 1.4em;
+  }
+
   .back {
-    background-size: 155%;
+    background-size: 165%;
     min-height: 30em;
   }
 
@@ -119,6 +133,7 @@
     top: 1em;
     right: 0;
     text-align: right;
+    background-color: transparent;
   }
 
   .nav li {
@@ -126,14 +141,13 @@
   }
 
   .nav a {
-    background: none;
     width: 100%;
     padding: .5em .8em;
     transition: color 500ms linear;
   }
 
   .nav a:hover {
-    background: none;
+    color: rgba(255, 255, 255, .6);
   }
 
   .hamburger {
@@ -145,20 +159,41 @@
   } 
 
   .name {
-    width: 40%;
+    margin: -1em auto 0 auto;
+    width: 55%;
+  } 
+
+  .sub {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 46em) {
+
+  .name {
+    width: 45%;
   } 
 
 }
 
 @media only screen and (min-width: 60em) {
 
+  .banner-space {
+    padding: 1.5em;
+  }
+
   .back {
-    background-size: 100%;
+    background-size: 120%;
     height: 35em;
   }
 
   .name {
-    width: 30%;
+    width: 35%;
+  }
+
+  .sub {
+    font-size: 1.2em;
   }
 
 }
@@ -167,6 +202,11 @@
 
   .back {
     min-height: 26em;
+    background-size: 100%;
+  }
+
+  .name {
+    width: 40%;
   }
 
 }
