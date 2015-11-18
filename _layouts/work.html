@@ -7,28 +7,32 @@ meta: Please enjoy looking thrugh my portfolio peices
 <main>
 	<div class="grid">
 	  <ul>
-	     <li class="island unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-	     	<img class="tri-1" src="{{site.baseurl}}/img/white-tri.svg" alt="">
+	     <li class="about-holder island pad-b unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
 	     	<h6 class="about-title push-none">Goal</h6>
 	        <p class="about micro">{{page.goal}}</p>
 	        <h6 class="about-title push-none">Obstacles</h6>
 	        <p class="about micro">{{page.obstacles}}</p>
 	        <h6 class="about-title push-none">Outcome</h6>
 	        <p class="about micro">{{page.outcome}}</p>
+	      </li>
+	      <img class="tri-2" src="{{site.baseurl}}/img/{{page.arrow}}" alt="">
+	      <li class="list-none peices gutter-half pad-top-half" style="background-color: {{site.baseurl}}{{page.b-color}};">
 	        {% for img in page.images %}
-	        	  <img class="image gutter pad-top unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 unit-xl-1-2" src="{{site.baseurl}}/img/{{img}}" alt"">
+	        	  <img class="island-half unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3" src="{{site.baseurl}}/img/{{img}}" alt"">
 	        {% endfor %}
+	       <div class="list-none pad-b gutter">
 	        {% for img in page.tags %}
-	        <img class="image" src="{{site.baseurl}}/img/{{img}}" alt"">
+	       		<img class="island-half unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-1-3 unit-xl-1-3" src="{{site.baseurl}}/img/{{img}}" alt"">
 	        {% endfor %}
-	     </li>
+	     		</div>
+	     		<div class="prev-next unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
+						<a class="prev" href="{{site.baseurl}}/work/{{page.prev-piece}}">Prev</a>
+						<a class="next" href="{{site.baseurl}}/work/{{page.next-piece}}">Next</a>
+					</div>
+	      </li>
 	  </ul>
 	</div>
-	<div>
-		<a href="{{site.baseurl}}/work/{{page.prev-piece}}">Prev</a>
-		<a href="{{site.baseurl}}/work/{{page.next-piece}}">Next</a>
-	</div>
-
+		      <img class="tri-3" src="{{site.baseurl}}/img/white-tri.svg" alt="">
 </main>
 
 

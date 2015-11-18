@@ -1,11 +1,43 @@
+.about-holder {
+  margin-top: -1em;
+}
+
 .about-title {
-  margin-top: -.5em;
   text-transform: uppercase;
+  color: rgb(56, 56, 56);
+  padding-bottom: .2em;
 }
 
 .about {
   font-weight: 300;
   line-height: 1.4em;
+  color: rgb(56, 56, 56);
+}
+
+.list-none {
+  list-style: none;
+}
+
+.peices {
+  margin-top: -1.5em;
+  background-color: rgb(240, 240, 240);
+}
+
+.prev-next {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.prev {
+  text-decoration: none;
+  padding-right: .5em;
+  color: rgb(56, 56, 56);
+}
+
+.next {
+  text-decoration: none;
+  padding-left: .5em;
+  color: rgb(56, 56, 56);
 }
 
 @media only screen and (min-width: 22em) {
