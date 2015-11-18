@@ -1,3 +1,7 @@
+.logo-work {
+  width: 20%;
+}
+
 .para-title {
   text-align: center;
   color: rgb(191, 30, 71);
@@ -17,16 +21,22 @@
   z-index: 5;
 }
 
+.image {
+  position: relative;
+}
+
 .plus {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 7em;
+  width: 8em;
 }
 
 @media only screen and (min-width: 22em) {
 
-
+  .plus {
+    width: 10em;
+  }
 
 }
 
@@ -42,6 +52,10 @@
 
   .work {
     padding-bottom: 3em;
+  }
+
+  .plus {
+    width: 8em;
   }
 
 }

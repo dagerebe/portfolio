@@ -1,6 +1,7 @@
 ---
 layout: work
 title: Twizzle App
+logo: wordmark-white.svg
 meta: Application to help improve a skaters performance
 next-piece: "/piece-three/"
 prev-piece: "/piece-one/"
