@@ -5,7 +5,7 @@ meta: Description of portfolio peice
 next-piece: "/piece-three/"
 prev-piece: "/piece-one/"
 banner: brickwall.jpg
-supertitle: wordmark-black.svg
+supertitle: twizzle-app.svg
 supersub: Description of peice
 goal: This will be about what the goal of my piece was.
 obstacles: I will then talk about what obstacles I encountered during the process.
