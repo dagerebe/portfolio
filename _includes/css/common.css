@@ -121,17 +121,17 @@ ul {
 @media only screen and (min-width: 33em) {
 
   .tri-1 {
-    top: -43px;
+    top: -50px;
     width: 5em;
   }
 
   .tri-2 {
-    top: -26px;
+    top: -23px;
     width: 5em;
   }
 
   .tri-3 {
-    top: -30px;
+    top: -50px;
     width: 5em;
   }
 
@@ -152,6 +152,10 @@ ul {
 
   .tri-1 {
     top: -55px;
+  }
+
+  .tri-3 {
+    top: -60px;
   }
 
 }

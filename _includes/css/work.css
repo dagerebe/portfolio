@@ -23,9 +23,19 @@
   background-color: rgb(240, 240, 240);
 }
 
+.tag-holder {
+  text-align: center;
+}
+
+.tag {
+  display: inline-block;
+  width: 3.2em;
+}
+
 .prev-next {
   text-align: center;
   padding-bottom: 3em;
+  font-weight: 800;
 }
 
 .prev {
@@ -42,7 +52,10 @@
 
 @media only screen and (min-width: 22em) {
 
-
+  .tag {
+    padding: 0 .5em;
+    width: 4.5em;
+  }
 
 }
 
@@ -54,6 +67,10 @@
 
   .about {
     padding: 0 10%;
+  }
+
+  .about-holder {
+    margin-top: -2.5em;
   }
 
 }
