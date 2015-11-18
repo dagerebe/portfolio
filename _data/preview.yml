@@ -1,14 +1,14 @@
-- title: Isometric Illustration
-  content: 'content'
-  image: isomatric_square.jpg
-  corner: corner-plus.svg
-  url: piece-one
-
 - title: Twizzle App
   content: 'content'
   image: twizzle_square.jpg
   corner: corner-plus.svg
   url: piece-two
+
+- title: Unico Package Repackage
+  content: 'content'
+  image: unico_square.jpg
+  corner: corner-plus.svg
+  url: piece-six
 
 - title: Quotebook
   content: 'content'
@@ -28,14 +28,14 @@
   corner: corner-plus.svg
   url: piece-five
 
-- title: Unico Package Repackage
-  content: 'content'
-  image: unico_square.jpg
-  corner: corner-plus.svg
-  url: piece-six
-
 - title: Magazine Layout
   content: 'content'
   image: magazine_square.jpg
   corner: corner-plus.svg
   url: piece-six
+
+- title: Isometric Illustration
+  content: 'content'
+  image: isomatric_square.jpg
+  corner: corner-plus.svg
+  url: piece-one
