@@ -4,7 +4,7 @@ title: Twizzle App
 logo: wordmark-white.svg
 meta: Application to help improve a skaters performance
 next-piece: "/piece-two/"
-prev-piece: "/piece-six/"
+prev-piece: "/piece-six/"    
 arrow: twizzle-tri.svg
 b-color: rgb(228, 244, 247)
 banner: twizzle-banner.jpg
