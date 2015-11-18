@@ -2,8 +2,8 @@
 layout: work
 title: Unico Re-package
 meta: Description of portfolio peice
-next-piece: "/piece-one/"
-prev-piece: "/piece-five/"
+next-piece: "/piece-three/"
+prev-piece: "/piece-one/"
 banner: unico-banner.jpg
 arrow: unico-tri.svg
 b-color: rgb(250, 234, 237)
