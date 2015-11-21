@@ -1,35 +1,29 @@
 - title: Twizzle App
-  content: 'content'
   image: twizzle_square.jpg
   corner: corner-plus.svg
   url: piece-one
 
 - title: Unico Package Repackage
-  content: 'content'
   image: unico_square.jpg
   corner: corner-plus.svg
   url: piece-two
 
 - title: Quotebook
-  content: 'content'
   image: quotebook_square.jpg
   corner: corner-plus.svg
   url: piece-three
 
-- title: How to train your dragon Poster
-  content: 'content'
+- title: Popcorn Saas Website
   image: popcorn_square.jpg
   corner: corner-plus.svg
   url: piece-four
 
 - title: Izze Sparkling Juice Campaign
-  content: 'content'
   image: izze_square.jpg
   corner: corner-plus.svg
   url: piece-five
 
-- title: Magazine Layout
-  content: 'content'
+- title: Aroonow Launch Page
   image: aroonow-square.jpg
   corner: corner-plus.svg
   url: piece-six

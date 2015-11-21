@@ -7,9 +7,9 @@ prev-piece: "/piece-three/"
 banner: popcorn-banner.jpg
 supertitle: saas.svg
 supersub: Movie and TV show streaming site
-goal: This will be about what the goal of my piece was.
-obstacles: I will then talk about what obstacles I encountered during the process.
-outcome: I will then talk about why I did what I did to accomplish the goal. And maybe what I enjoyed and didnt enjoy about the project.
+goal: The goal of my Saas website was to make someone want to buy the services after viewing the site
+obstacles: Some obstacles I came across was how to create a unique selling poing that I could advertise on the site. I also needed to look at trends to help me determine the best way to present the call to action.
+outcome: In the end I came up with a movie and TV streaming site that allows the customer to watch movies that are still in theatres with the largest plan. I created a night out to the movies theme to present the site differnt than other streaming sites already out there.
 images:
   - popcorn-1.jpg
   - popcorn-2.jpg

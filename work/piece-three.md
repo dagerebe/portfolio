@@ -7,9 +7,9 @@ prev-piece: "/piece-two/"
 banner: quotebook-banner.jpg
 supertitle: quotebook.svg
 supersub: Personal quotebook about life
-goal: This will be about what the goal of my piece was.
-obstacles: I will then talk about what obstacles I encountered during the process.
-outcome: I will then talk about why I did what I did to accomplish the goal. And maybe what I enjoyed and didnt enjoy about the project.
+goal: The goal of this peice was to create a personal piece full of quotes that represented me and also showed off my typographic talents.
+obstacles: An obstacle I had to encounter was trying to figure out who I was and how to portray myself.
+outcome: I created a book of quotes about life because I love my life. I carved all of the quates out of rubber and made stamps. I used different textures of papers becasue I find joy in different textures and feels. Then I bound it myself to give it the final hand done feel.
 images:
   - quotebook_one.jpg
   - quotebook_two.jpg
