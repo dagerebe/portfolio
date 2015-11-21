@@ -4,9 +4,9 @@ title: Quotebook
 meta: Description of portfolio peice
 next-piece: "/piece-four/"
 prev-piece: "/piece-two/"
-banner: brickwall.jpg
-supertitle: wordmark-black.svg
-supersub: Description of peice
+banner: quotebook-banner.jpg
+supertitle: quotebook.svg
+supersub: Personal quotebook about life
 goal: This will be about what the goal of my piece was.
 obstacles: I will then talk about what obstacles I encountered during the process.
 outcome: I will then talk about why I did what I did to accomplish the goal. And maybe what I enjoyed and didnt enjoy about the project.
