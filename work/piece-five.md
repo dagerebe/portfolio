@@ -13,7 +13,6 @@ outcome: I will then talk about why I did what I did to accomplish the goal. And
 images:
   - izze-1.jpg
   - izze-2.jpg
-  - izze-3.jpg
   - izze-4.jpg
 tags:
   - ai.svg

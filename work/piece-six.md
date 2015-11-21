@@ -4,8 +4,8 @@ title: Magazine
 meta: Description of portfolio peice
 next-piece: "/piece-one/"
 prev-piece: "/piece-five/"
-banner: magazine-banner.jpg
-supertitle: magazine.svg
+banner: aroonow-banner.jpg
+supertitle: launch.svg
 supersub: A magazine design for adults
 goal: In the re-packaging of Unico Penne pasta my goal was to create a more eco friendly and visually interesting package. I was also trying to accomplish making it useful.
 obstacles: Some of the obstacles I encountered were what materials I should use for the package and what shape to try and make it more eco friendly and visually appealing. I was also struggling with how to make it useful.

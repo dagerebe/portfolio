@@ -14,7 +14,6 @@ images:
   - quotebook_one.jpg
   - quotebook_two.jpg
   - quotebook_three.jpg
-  - quotebook_five.jpg
   - quotebook_six.jpg
   - quotebook_seven.jpg
   - quotebook_nine.jpg

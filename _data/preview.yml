@@ -18,7 +18,7 @@
 
 - title: How to train your dragon Poster
   content: 'content'
-  image: dragon_square.jpg
+  image: popcorn_square.jpg
   corner: corner-plus.svg
   url: piece-four
 
@@ -30,6 +30,6 @@
 
 - title: Magazine Layout
   content: 'content'
-  image: magazine_square.jpg
+  image: aroonow-square.jpg
   corner: corner-plus.svg
   url: piece-six
