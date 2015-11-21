@@ -7,11 +7,13 @@ prev-piece: "/piece-five/"
 banner: aroonow-banner.jpg
 supertitle: launch.svg
 supersub: A magazine design for adults
-goal: In the re-packaging of Unico Penne pasta my goal was to create a more eco friendly and visually interesting package. I was also trying to accomplish making it useful.
-obstacles: Some of the obstacles I encountered were what materials I should use for the package and what shape to try and make it more eco friendly and visually appealing. I was also struggling with how to make it useful.
-outcome: I accomplished my goals by using a unique shap for the box making it also easier to pour. I used seed paper that grows herbs for the cap. This cap also is a single serving measure.
+goal: The gial of this project was to create a logo and a launch page for a new site coming soon.  
+obstacles: I needed to figure out a way to engage people on the site right and way and hopefully it would lead to them donating to us to start up.
+outcome: I kept the site quite simple to allow people to easily understand what is going on with minimal works and the use of icons. I also wanted to keep the experience short beacue people are busy and don't have alot of time in their day to spend on a site let alone donate money.
 images:
-
+  - aroonow-1.jpg
+  - aroonow-2.jpg
 tags:
-  - id.svg
+  - ai.svg
+  - sublime.svg
 ---
