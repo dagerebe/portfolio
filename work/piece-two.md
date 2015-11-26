@@ -16,7 +16,6 @@ images:
   - unico-1.jpg
   - unico-2.jpg
   - unico-3.jpg
-  - unico-4.jpg
   - unico-5.jpg
   - unico-6.jpg
 tags:
