@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-69 71 360 360" enable-background="new -69 71 360 360" xml:space="preserve">
-<circle fill="#383838" cx="111" cy="251" r="144"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M14.9,192.4h193.2v121.1H14.9V192.4z"/>
-<path fill="#FFFFFF" d="M111.5,266.4l96.6-72.2H14.9L111.5,266.4z"/>
-<path fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" d="M14.9,313.5l94.3-89.9l98.9,89.9"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-69 71 360 360" enable-background="new -69 71 360 360"><circle fill="#383838" cx="111" cy="251" r="144"/><path stroke="#fff" stroke-width="10" stroke-miterlimit="10" d="M14.9 192.4h193.2v121.1h-193.2v-121.1z" fill="none"/><path fill="#fff" d="M111.5 266.4l96.6-72.2h-193.2l96.6 72.2z"/><path stroke="#fff" stroke-width="10" stroke-miterlimit="10" d="M14.9 313.5l94.3-89.9 98.9 89.9" fill="none"/></svg>
