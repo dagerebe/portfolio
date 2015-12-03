@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,12 +23,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow-y: auto;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-
-  -webkit-perspective: 1px;
-  perspective: 1px; 
 }
 
 img {
