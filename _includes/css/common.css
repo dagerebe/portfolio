@@ -13,7 +13,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font: normal 100%/1.5 sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -59,7 +59,7 @@ ul {
 .tri-1 {
   position: relative;
   width: 4em;
-  bottom: px;
+  bottom: 22px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -69,7 +69,7 @@ ul {
 .tri-2 {
   position: relative;
   width: 4em;
-  top: -22px;
+  bottom: 22px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -114,12 +114,12 @@ ul {
 @media only screen and (min-width: 33em) {
 
   .tri-1 {
-    top: -50px;
+    bottom: 50px;
     width: 5em;
   }
 
   .tri-2 {
-    top: -23px;
+    bottom: 30px;
     width: 5em;
   }
 
@@ -144,18 +144,30 @@ ul {
 @media only screen and (min-width: 60em) {
 
   .tri-1 {
-    top: -55px;
+    bottom: 60px;
   }
 
-  .tri-3 {
-    top: -30px;
+  .tri-2 {
+    bottom: 30px;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  .tri-1 {
+    width: 6em;
+    bottom: 70px;
+  }
 
+  .tri-2 {
+    width: 6em;
+    bottom: 40px;
+  }
+
+  .btm-para {
+    padding-bottom: 4em;
+  }
 }
 
 

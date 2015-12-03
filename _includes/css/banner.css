@@ -175,6 +175,11 @@
 
 @media only screen and (min-width: 60em) {
 
+  .nav a {
+    font-size: 110%;
+    padding: 1em .75em;
+  }
+
   .banner-space {
     padding: 1.5em;
   }
@@ -196,13 +201,36 @@
 
 @media only screen and (min-width: 90em) {
 
+  .nav a {
+    font-size: 120%;
+    padding: 1em .75em;
+  }
+
   .back {
-    min-height: 30em;
+    min-height: 40em;
     background-size: 100%;
   }
 
   .name {
-    width: 40%;
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  .nav a {
+    font-size: 130%;
+    padding: 1em 1.5em;
+  }
+
+  .back {
+    min-height: 50em;
+    background-size: 100%;
+  }
+
+  .name {
+    width: 25%;
   }
 
 }

@@ -58,6 +58,10 @@
     width: 8em;
   }
 
+  .btm-para {
+    padding-bottom: 3em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -77,6 +81,10 @@
   .work {
     padding-right: 10%;
     padding-left: 10%;
+  }
+
+  .btm-para {
+    padding-bottom: 4em;
   }
 
 }
