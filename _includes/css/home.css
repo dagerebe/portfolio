@@ -23,6 +23,12 @@
 
 .image {
   position: relative;
+  color: black;
+  transition: opacity 500ms linear;
+}
+
+.image:hover {
+  opacity: .7;
 }
 
 .plus {
@@ -30,11 +36,12 @@
   bottom: 0;
   right: 0;
   width: 8em;
-  background-color: red;
+  background-color: rgb(100,0,0);
+  transition: background-color 500ms linear;
 }
 
-.plus :hover {
-  background-color: black;
+.plus:hover {
+  background-color: rgb(0,0,0);
 }
 
 @media only screen and (min-width: 22em) {
