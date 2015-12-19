@@ -2,7 +2,7 @@
 layout: work
 title: Unico Re-package
 meta: Description of portfolio peice
-next-piece: "/piece-three/"
+next-piece: "/quotebook/"
 prev-piece: "/piece-one/"
 banner: unico-banner.jpg
 b-color: rgb(250, 234, 237)

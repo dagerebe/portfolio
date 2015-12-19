@@ -6,6 +6,8 @@
 
 .footer-message {
   text-align: center;
+  font-weight: 700;
+  color: rgb(191, 30, 71);
 }
 
 .button-holder {
@@ -16,14 +18,23 @@
 .buttons {
   width: 4em;
   display: inline-block;
+  transition: opacity 500ms linear;
+}
+
+.buttons:hover {
+  opacity: .7;
 }
 
 .top {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  font-weight: 800;
+  width: 4em;
   padding-top: 2em;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  transition: opacity 500ms linear;
+}
+
+.top:hover {
+  opacity: .7;
 }
 
 @media only screen and (min-width: 22em) {

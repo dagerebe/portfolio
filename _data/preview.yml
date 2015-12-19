@@ -1,29 +1,29 @@
 - title: Twizzle App
   image: twizzle_square.jpg
   corner: corner-plus.svg
-  url: piece-one
+  url: twizzle-app
 
-- title: Unico Package Repackage
+- title: Unico Re-package
   image: unico_square.jpg
   corner: corner-plus.svg
-  url: piece-two
+  url: unico-re-package
 
 - title: Quotebook
   image: quotebook_square.jpg
   corner: corner-plus.svg
-  url: piece-three
+  url: quotebook
 
 - title: Popcorn Saas Website
   image: popcorn_square.jpg
   corner: corner-plus.svg
-  url: piece-four
+  url: saas-website
 
 - title: Izze Sparkling Juice Campaign
   image: izze_square.jpg
   corner: corner-plus.svg
-  url: piece-five
+  url: izze-campaign
 
 - title: Aroonow Launch Page
   image: aroonow-square.jpg
   corner: corner-plus.svg
-  url: piece-six
+  url: launch-page

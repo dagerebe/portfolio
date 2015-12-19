@@ -2,8 +2,8 @@
 layout: work
 title: Quotebook
 meta: Description of portfolio peice
-next-piece: "/piece-four/"
-prev-piece: "/piece-two/"
+next-piece: "/saas-website/"
+prev-piece: "/unico-re-package/"
 banner: quotebook-banner.jpg
 supertitle: quotebook.svg
 alt: Quotebook

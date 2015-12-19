@@ -2,8 +2,8 @@
 layout: work
 title: Saas-website
 meta: Description of portfolio peice
-next-piece: "/piece-five/"
-prev-piece: "/piece-three/"
+next-piece: "/izze-campaign/"
+prev-piece: "/quotebook/"
 banner: popcorn-banner.jpg
 supertitle: saas.svg
 alt: Saas-Website

@@ -2,8 +2,8 @@
 layout: work
 title: Izze Campaign
 meta: Description of portfolio peice
-next-piece: "/piece-six/"
-prev-piece: "/piece-four/"
+next-piece: "/launch-page/"
+prev-piece: "/saas-website/"
 banner: izze-banner.jpg
 supertitle: izze-campaign.svg
 alt: Izze Campaign

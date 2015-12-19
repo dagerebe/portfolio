@@ -1,9 +1,9 @@
 ---
 layout: work
-title: Magazine 
+title: Lauch page
 meta: Description of portfolio peice
-next-piece: "/piece-one/"
-prev-piece: "/piece-five/"
+next-piece: "/twizzle-app/"
+prev-piece: "/izze-campaign/"
 banner: aroonow-banner.jpg
 supertitle: launch.svg
 alt: Lauch Page
