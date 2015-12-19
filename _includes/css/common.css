@@ -106,6 +106,14 @@ ul {
   z-index: 100;
 }
 
+.wrap {
+  margin: 0 5%;
+}
+
+.title {
+  text-align: center;
+}
+
 @media only screen and (min-width: 22em) {
 
 
@@ -138,6 +146,10 @@ ul {
     width: 5em;
   }
 
+  .wrap {
+    margin: 0 20%;
+  }
+
 
 }
 
@@ -149,6 +161,10 @@ ul {
 
   .tri-2 {
     bottom: 30px;
+  }
+
+  .wrap {
+    margin: 0 25%;
   }
 
 }
@@ -163,6 +179,10 @@ ul {
   .tri-2 {
     width: 6em;
     bottom: 40px;
+  }
+
+  .wrap {
+    margin: 0 30%;
   }
 
 }
