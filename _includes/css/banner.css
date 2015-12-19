@@ -1,11 +1,12 @@
 .back {
   display: block;
   z-index: 2;
-  background: #898989 url(../img/brickwall.jpg) no-repeat center center;
+  background: url(../img/brickwall.jpg) no-repeat center center;
   background-size: 260%;
   overflow: hidden;
   min-height: 23em;
   position: relative;
+  background-color: rgb(191, 30, 71);
 }
 
 .nav {

@@ -6,6 +6,7 @@ next-piece: "/piece-one/"
 prev-piece: "/piece-five/"
 banner: aroonow-banner.jpg
 supertitle: launch.svg
+alt: Lauch Page
 supersub: A webpage to promote a new unique web store.
 goal: The gial of this project was to create a logo and a launch page for a new site coming soon.  
 obstacles: I needed to figure out a way to engage people on the site right and way and hopefully it would lead to them donating to us to start up.

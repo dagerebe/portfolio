@@ -5,9 +5,9 @@ meta: Description of portfolio peice
 next-piece: "/piece-three/"
 prev-piece: "/piece-one/"
 banner: unico-banner.jpg
-arrow: unico-tri.svg
 b-color: rgb(250, 234, 237)
 supertitle: unico_re-package.svg
+alt: Unico Re-package
 supersub: A more eco friendly package design
 goal: In the re-packaging of Unico Penne pasta my goal was to create a more eco friendly and visually interesting package. I was also trying to accomplish making it useful.
 obstacles: Some of the obstacles I encountered were what materials I should use for the package and what shape to try and make it more eco friendly and visually appealing. I was also struggling with how to make it useful.

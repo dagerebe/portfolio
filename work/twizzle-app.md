@@ -9,6 +9,7 @@ arrow: twizzle-tri.svg
 b-color: rgb(228, 244, 247)
 banner: twizzle-banner.jpg
 supertitle: twizzle-app.svg
+alt: Twizzle App
 supersub: Application to help improve a figure skaters performance
 goal: The goal of this app is too help figure skaters improve their skills and figure out what they need to improve on or where they are going wrong in their performance. 
 obstacles: It was hard to figure out how to connect the app to a physical experience. Another obstacle was to figure out what data to show and how to find the data after it is recorded for future use.

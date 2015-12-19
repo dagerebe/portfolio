@@ -3,6 +3,7 @@ layout: default
 title: Rebecca Dagenais • Portfolio
 meta: Ottawa based graphic design student
 supertitle: wordmark-white.svg
+alt: Rebecca Dagenais
 supersub: UX/UI • Web Dev • Print
 banner:  brickwall.jpg
 ---
@@ -20,8 +21,9 @@ banner:  brickwall.jpg
        <ul>
         {% for preview in site.data.preview %}
           <li class="image island-half unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3">
-            <img src="{{site.baseurl}}/img/{{preview.image}}" alt="">
-            <a href="{{site.baseurl}}/work/{{preview.url}}"><img class="island-half plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt=""></a>
+            <a href="{{site.baseurl}}/work/{{preview.url}}">
+            <img src="{{site.baseurl}}/img/{{preview.image}}" alt="{{preview.title}}">
+            <img class="island-half plus" src="{{site.baseurl}}/img/{{preview.corner}}" alt=""></a>
           </li>
         {% endfor %}
       </ul>

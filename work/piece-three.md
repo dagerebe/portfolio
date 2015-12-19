@@ -6,6 +6,7 @@ next-piece: "/piece-four/"
 prev-piece: "/piece-two/"
 banner: quotebook-banner.jpg
 supertitle: quotebook.svg
+alt: Quotebook
 supersub: Personal quotebook about life
 goal: The goal of this peice was to create a personal piece full of quotes that represented me and also showed off my typographic talents.
 obstacles: An obstacle I had to encounter was trying to figure out who I was and how to portray myself.
