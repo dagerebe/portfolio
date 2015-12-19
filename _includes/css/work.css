@@ -32,31 +32,19 @@
 }
 
 .prev-next {
-  text-align: center;
   padding-bottom: 3em;
-  font-weight: 800;
+  margin: 0 auto;
+
 }
 
 .prev {
-  text-decoration: none;
-  padding-right: .5em;
-  color: rgb(56, 56, 56);
-  transition: color 500ms linear;
-}
-
-.prev:hover {
-  color: rgba(56, 56, 56, .5);
+  width: 3em;
+  margin: 0 auto;
 }
 
 .next {
-  text-decoration: none;
-  padding-left: .5em;
-  color: rgb(56, 56, 56);
-  transition: color 500ms linear;
-}
-
-.next:hover {
-  color: rgba(56, 56, 56, .5);
+  width: 3em;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 22em) {

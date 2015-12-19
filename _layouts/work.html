@@ -25,10 +25,14 @@ meta: Please enjoy looking thrugh my portfolio peices
 	       		<img class="tag" src="{{site.baseurl}}/img/{{img}}" alt"">
 	        {% endfor %}
 	     		</div>
-	     		<div class="prev-next unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2 unit-xl-1-2">
-						<a class="prev" href="{{site.baseurl}}/work/{{page.prev-piece}}"><-- Prev</a>
-						<a class="next" href="{{site.baseurl}}/work/{{page.next-piece}}">Next --></a>
-					</div>
+		    </li>
+		    <li class="grid prev-next">
+	     		<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+					<a href="{{site.baseurl}}/work/{{page.prev-piece}}"><img class="prev" src="{{site.baseurl}}/img/prev.svg" alt="previous button"></a>
+				</div>
+				<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+					<a href="{{site.baseurl}}/work/{{page.next-piece}}"><img class="next" src="{{site.baseurl}}/img/next.svg" alt="next button"></a>
+				</div>
 	      </li>
 	  </ul>
 	</div>
