@@ -34,17 +34,26 @@
 .prev-next {
   padding-bottom: 3em;
   margin: 0 auto;
-
 }
 
 .prev {
   width: 3em;
   margin: 0 auto;
+  transition: opacity 500ms linear;
+}
+
+.prev:hover {
+  opacity: .7;
 }
 
 .next {
   width: 3em;
   margin: 0 auto;
+  transition: opacity 500ms linear;
+}
+
+.next:hover {
+  opacity: .7;
 }
 
 @media only screen and (min-width: 22em) {
@@ -70,6 +79,10 @@
     margin-top: -2.5em;
   }
 
+  .prev-next {
+    padding: 0 15%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -84,6 +97,7 @@
 
   .prev-next {
     padding-top: 2.5em;
+    padding: 0 20%;
   }
 
 }
@@ -98,4 +112,7 @@
     padding: 0 20%;
   }
 
+  .prev-next {
+    padding: 0 25%;
+  }
 }
