@@ -79,7 +79,7 @@ ul {
 .tri-3 {
   position: relative;
   width: 4em;
-  top: -43px;
+  top: -22px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);

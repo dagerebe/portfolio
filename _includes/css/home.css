@@ -19,16 +19,13 @@
 .work {
   background-color: rgb(240, 240, 240);
   z-index: 5;
+  padding-bottom: 2em;
+  padding-top: 0;
 }
 
 .image {
   position: relative;
   color: black;
-  transition: opacity 500ms linear;
-}
-
-.image:hover {
-  opacity: .7;
 }
 
 .plus {
@@ -47,6 +44,17 @@
 }
 
 @media only screen and (min-width: 33em) {
+
+  .image {
+  position: relative;
+  color: black;
+  opacity: .7;
+  transition: opacity 500ms linear;
+}
+
+.image:hover {
+  opacity: 1;
+}
 
   .para {
     padding: 0 10%;
