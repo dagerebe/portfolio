@@ -59,7 +59,7 @@
 .spacer {
   display: block;
   border-style: inset;
-  border-top: 1px solid rgb(56,56,56);
+  border-top: 2px solid rgb(56,56,56);
   margin: 0 10% 1em 10%;
 }
 
@@ -87,7 +87,7 @@
   }
 
   .prev-next {
-    padding: 0 15%;
+    margin: 0 5%;
   }
 
 }
@@ -103,8 +103,7 @@
   }
 
   .prev-next {
-    padding-top: 2.5em;
-    padding: 0 20%;
+    margin: 0 15%;
   }
 
 }
@@ -120,6 +119,6 @@
   }
 
   .prev-next {
-    padding: 0 25%;
+    margin: 0 25%;
   }
 }
