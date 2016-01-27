@@ -32,7 +32,7 @@
 }
 
 .prev-next {
-  padding-bottom: 3em;
+  padding-bottom: 4em;
   margin: 0 auto;
 }
 
@@ -59,8 +59,8 @@
 .spacer {
   display: block;
   border-style: inset;
-  border-width: 4px solid black;
-  margin: 4em 10% 1em 10%;
+  border-top: 1px solid rgb(56,56,56);
+  margin: 0 10% 1em 10%;
 }
 
 @media only screen and (min-width: 22em) {
