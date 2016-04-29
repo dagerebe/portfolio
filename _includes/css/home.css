@@ -19,7 +19,7 @@
 .work {
   background-color: rgb(240, 240, 240);
   z-index: 5;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
 }
 
 .image {
@@ -64,7 +64,7 @@
   }
 
   .work {
-    padding-bottom: 3em;
+    padding-bottom: 4em;
   }
 
   .plus {
@@ -72,7 +72,7 @@
   }
 
   .btm-para {
-    padding-bottom: 3em;
+    padding-bottom: 6em;
   }
 
 }
@@ -94,10 +94,6 @@
   .work {
     padding-right: 10%;
     padding-left: 10%;
-  }
-
-  .btm-para {
-    padding-bottom: 4em;
   }
 
 }

@@ -1,5 +1,7 @@
 .about-holder {
   margin-top: -1em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .about-title {
@@ -20,6 +22,10 @@
 
 .peices {
   margin-top: -1.5em;
+}
+
+.example-peice {
+  padding-bottom: 2em;
 }
 
 .tag-holder {
@@ -86,10 +92,6 @@
     margin-top: -2.5em;
   }
 
-  .prev-next {
-    margin: 0 5%;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -101,11 +103,6 @@
   .about {
     padding: 0 15%;
   }
-
-  .prev-next {
-    margin: 0 15%;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
@@ -116,9 +113,5 @@
 
   .about {
     padding: 0 20%;
-  }
-
-  .prev-next {
-    margin: 0 25%;
   }
 }
