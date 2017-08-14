@@ -17,5 +17,3 @@ images:
   - chrc-3.png
   - chrc-4.png
 ---
-
-<iframe width="438" height="930" src="//invis.io/HS4ZUGJ2Z" frameborder="0" allowfullscreen></iframe>
