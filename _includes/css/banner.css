@@ -17,9 +17,8 @@
   position: absolute;
   top: 0;
   z-index: 10;
-  background-color: rgba(56, 56, 56, .8);
-  padding-top: 1.2em;
-  text-align: center;
+  padding: 1em;
+  text-align: right;
 }
 
 .nav li {
@@ -31,16 +30,16 @@
 .nav a {
   display: block;
   text-decoration: none;
-  width: 100%;
+  width: 300px;
   padding: .5em 2em;
   z-index: 12;
-  font-weight: 600;
+  font-weight: 300;
   color: white;
 }
 
 .nav-check {
   position: absolute;
-  margin-top: -5em;
+  margin-top: -10em;
   z-index: 1;
 }
 
@@ -83,23 +82,12 @@
   padding-bottom: .5em;
 }
 
-.sub {
-  text-transform: uppercase;
-  font-weight: 600;
-  color: white;
-  font-size: .8em;
-}
-
 @media only screen and (min-width: 22em) {
 
   .back {
     background-size: 180%;
     min-height: 23em;
   }
-
-  .nav-check {
-    margin-top: -4em;
-  }  
 
   .name {
     width: 65%;
@@ -111,48 +99,24 @@
     font-size: .9em;
   }
 
+  .nav {
+    background-color: white;
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 33em) {
 
-  .banner-space {
-    padding: 1.4em;
-  }
 
   .back {
     background-size: 165%;
     min-height: 30em;
   }
 
-  .nav {
-    padding: 0 5%;
-    display: block;
-    top: 1em;
-    right: 0;
-    text-align: right;
-    background-color: transparent;
-  }
-
-  .nav li {
-    display: inline-block;
-  }
-
-  .nav a {
-    width: 100%;
-    padding: .5em .8em;
-    transition: color 500ms linear;
-  }
-
-  .nav a:hover {
-    color: rgba(255, 255, 255, .6);
-  }
-
-  .hamburger {
-    display: none;
-  }
 
   .nav-check {
-    margin-top: -5em;
+    margin-top: -10em;
   } 
 
   .name {
@@ -172,18 +136,34 @@
     width: 45%;
   } 
 
+  .nav {
+    background-color: transparent;
+  }
+
+  .nav {
+    display: block;
+    right: 0;
+    text-align: right;
+  }
+
+  .nav a {
+    width: 100%;
+    padding: .5em .8em;
+    transition: color 500ms linear;
+  }
+
+  .nav a:hover {
+    color: rgba(255, 255, 255, .6);
+  }
+
+  .hamburger {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .nav a {
-    font-size: 110%;
-    padding: 1em .75em;
-  }
-
-  .banner-space {
-    padding: 1.5em;
-  }
 
   .back {
     background-size: 120%;
@@ -202,11 +182,6 @@
 
 @media only screen and (min-width: 90em) {
 
-  .nav a {
-    font-size: 120%;
-    padding: 1em .75em;
-  }
-
   .back {
     min-height: 40em;
     background-size: 100%;
@@ -219,11 +194,6 @@
 }
 
 @media only screen and (min-width: 120em) {
-
-  .nav a {
-    font-size: 130%;
-    padding: 1em 1.5em;
-  }
 
   .back {
     min-height: 50em;

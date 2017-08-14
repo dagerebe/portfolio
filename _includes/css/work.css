@@ -1,3 +1,71 @@
+.work-back {
+  display: block;
+  z-index: 2;
+  overflow: hidden;
+  min-height: 2em;
+  padding-top: 20px;
+  color: white;
+  position: relative;
+  bottom: 100px;
+}
+
+.header-img {
+  position: relative;
+  width: 400px;
+  left: calc(50% - 200px);
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.line {
+  border-top: 2px solid #fff;
+  width: 10px;
+  position: absolute;
+  left: calc(50% - 10px);
+}
+
+.role {
+  color: white;
+  font-weight: 600px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.project-title {
+  color: white;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.sub {
+  font-weight: 300;
+  color: white;
+  font-size: 26px;
+}
+
+.body {
+  color: white;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  margin-bottom: 20px;
+}
+
+.image-section {
+  position: relative;
+  top: 300px;
+}
+
+.content-back {
+  top: 0;
+  height: 500px;
+  padding: 80px 30px 30px 30px;
+}
+
+.work-ul a{
+  color: #000;
+}
+
 .about-holder {
   margin-top: -1em;
   padding-top: 3em;
@@ -22,10 +90,15 @@
 
 .peices {
   margin-top: -1.5em;
+  margin: 0 10px;
 }
 
 .example-peice {
   padding-bottom: 2em;
+}
+
+.example-comment {
+    text-align: center;
 }
 
 .tag-holder {
@@ -78,6 +151,15 @@
 
 }
 
+@media only screen and (min-width: 28em) {
+
+  .header-img {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+
+}
+
 @media only screen and (min-width: 33em) {
 
   .about-title {
@@ -92,6 +174,15 @@
     margin-top: -2.5em;
   }
 
+  .content-back {
+    width: 500px;
+  }
+
+  .header-img {
+    width: 800px;
+    left: calc(50% - 400px);
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -103,6 +194,16 @@
   .about {
     padding: 0 15%;
   }
+
+  .content-back {
+    width: 600px;
+  }
+
+  .header-img {
+    width: 1000px;
+    left: calc(50% - 500px);
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -114,4 +215,6 @@
   .about {
     padding: 0 20%;
   }
+
+
 }

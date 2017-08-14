@@ -4,21 +4,42 @@ title: Portfolio • My Work
 meta: Please enjoy looking thrugh my portfolio peices
 ---
 
-<main>
+<div class="banner-space">
+  <header role="banner" id="top" class="island">
+  	<input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label" for="nav-check"><img class="hamburger" src="{{site.baseurl}}/img/hamburger.png" alt="navigation-button"></label>
+
+      <!--<div class="logo-work">
+    <img src="{{site.baseurl}}/img/{{page.logo}}">
+  </div>-->
+    <nav class="nav" role="navigation" id="nav">
+      <ul class="ul-push">
+        <li class="work-ul"><a href="{{site.baseurl}}/" class="{% if page.url == 'index.html' %}current{% endif %}">Home</a></li>
+        <li class="work-ul"><a href="{{site.baseurl}}/#projects">Work</a></li>
+        <li class="work-ul"><a href="{{site.baseurl}}/#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="name-box-content content-back" style="background-color: {{page.b-color}};">
+    <h5 class="project-title">{{page.project-title}}</h5>
+      <h6 class="sub">{{page.supersub}}</h6>
+      <p class="body">{{page.goal}}</p>
+      <div class="line"></div>
+      <p class="role">{{page.role}}</p>
+    </div>
+      	<img class="header-img" style="top: {{page.top-height}};" src="{{site.baseurl}}/img/{{page.banner}}">
+  </header>
+</div>
+
+<main class="image-section">
 	<div class="grid">
 	  <ul>
-	     <li class="about-holder island pad-b unit unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
-	     	<h6 class="about-title push-none">Goal</h6>
-	        <p class="about micro">{{page.goal}}</p>
-	        <h6 class="about-title push-none">Obstacles</h6>
-	        <p class="about micro">{{page.obstacles}}</p>
-	        <h6 class="about-title push-none">Outcome</h6>
-	        <p class="about micro">{{page.outcome}}</p>
-	      </li>
 	      <!--<img class="tri-2" src="{{site.baseurl}}/img/{{page.arrow}}" alt="">-->
 	      <li class="list-none peices gutter-half pad-top-half">
 	        {% for img in page.images %}
-	        	  <img class="island-half example-peice unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3 unit-xl-1-3" src="{{site.baseurl}}/img/{{img}}" alt"picture of portfolio peice">
+	        <div>
+	        	<p class="island-half example-comment unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">A sentence here.</p>
+	        	  <img class="island-half example-peice unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1" src="{{site.baseurl}}/img/{{img}}" alt"picture of portfolio peice">
+	        	  </div>
 	        {% endfor %}
 	       <div class="list-none island tag-holder unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 unit-xl-1">
 	        {% for img in page.tags %}
@@ -28,10 +49,10 @@ meta: Please enjoy looking thrugh my portfolio peices
 		    </li>
 		    <li class="grid prev-next">
 	     		<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-					<a href="{{site.baseurl}}/work/{{page.prev-piece}}"><img class="prev" src="{{site.baseurl}}/img/prev.svg" alt="previous button"></a>
+					<a href="{{site.baseurl}}/work/{{page.prev-piece}}"><img class="prev" src="{{site.baseurl}}/img/prev.png" alt="previous button"></a>
 				</div>
 				<div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
-					<a href="{{site.baseurl}}/work/{{page.next-piece}}"><img class="next" src="{{site.baseurl}}/img/next.svg" alt="next button"></a>
+					<a href="{{site.baseurl}}/work/{{page.next-piece}}"><img class="next" src="{{site.baseurl}}/img/next.png" alt="next button"></a>
 				</div>
 	      </li>
 	  </ul>

@@ -1,23 +1,23 @@
-- title: Twizzle App
-  image: twizzle_square.jpg
-  url: twizzle-app
+- title: CHRC Website
+  image: chrc-square.jpg
+  url: chrc-website
 
-- title: Unico Re-package
-  image: unico_square.jpg
-  url: unico-re-package
+- title: MYC Website
+  image: myc-square.jpg
+  url: myc-website
 
-- title: Quotebook
-  image: quotebook_square.jpg
-  url: quotebook
+- title: OPL Website
+  image: opl-square.jpg
+  url: opl-website
 
-- title: Popcorn Saas Website
-  image: popcorn_square.jpg
-  url: saas-website
+- title: Holistic Assessment Assets
+  image: mk-square.jpg
+  url: mk-assets
 
-- title: Izze Sparkling Juice Campaign
-  image: izze_square.jpg
-  url: izze-campaign
+- title: AFN Touchbook
+  image: afn-square.jpg
+  url: afn-touchbooks
 
-- title: Aroonow Launch Page
-  image: aroonow-square.jpg
-  url: launch-page
+# title: ONFE Website
+# image: onfe-square.jpg
+# url: onfe-website
