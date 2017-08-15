@@ -3,8 +3,8 @@ layout: work
 project-title: MUSIC FOR YOUNG CHILDREN
 meta: Description of portfolio peice
 role: Art Direction | Production Designer
-next-piece: "/opl-website/"
-prev-piece: "/myc-website/"
+next-piece: "/chrc-website/"
+prev-piece: "/opl-website/"
 banner: myc-1.png
 top-height: 350px
 b-color: rgb(44, 141, 117)

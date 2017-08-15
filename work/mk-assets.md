@@ -4,8 +4,8 @@ title: MI’KMAW KINA’MATNEWEY
 meta: Description of portfolio peice
 role: Art Direction | Production Designer
 top-height: 420px
-next-piece: "/afn-touchbooks/"
-prev-piece: "/opl-website/"
+next-piece: "/opl-website/"
+prev-piece: "/afn-touchbooks/"
 banner: mk-1.png
 alt: MK holistic assessment assets
 b-color: rgb(43, 80, 21)

@@ -4,8 +4,8 @@ project-title: ASSEMBLY OF FIRST NATIONS
 meta: Touchbook Design/Development
 role: Art Direction | Production Designer
 top-height: 420px
-next-piece: "/mltc-assessment/"
-prev-piece: "/afn-touchbook/"
+next-piece: "/mk-assets/"
+prev-piece: "/chrc-website/"
 banner: afn-1.png
 b-color: rgb(219, 50, 35)
 alt: ONFE Website Redesign
