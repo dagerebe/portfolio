@@ -7,7 +7,7 @@ UX/UI Design • Web Development • Print Design
 
 
 ###Contact Me!
-- [hello@rebeccadagenais.ca](mailto:hello@rebeccadagenais.ca)
+- [r.beccadagenais@gmail.com](mailto:r.beccadagenais@gmail.com)
 - [Behance](https://www.behance.net/rebecca_dagenais)
 - [Linkedin](https://www.linkedin.com/profile/view?id=AAMAABNfgUwBUXMalCmmeWWyFbziHNJKmRKzIIs&trk=hp-identity-name)
 

@@ -12,7 +12,7 @@ banner: chrc-1.png
 supertitle: twizzle-<app class="png"></app>
 alt: CHRC Website
 supersub: Digital Engagement Platform
-goal: I worked with a strategist and a creative director to deveop the logo and a digital engagement platform visual design. The platform will allow the Canadian Human Right Commisson to engage users to participate in their event later in 2017 and promote Human Rights events from around Canada.
+goal: I workd with a strategist and a creative director to deveop the logo and a digital engagement platform visual design. The platform will allow the Canadian Human Right Commisson to engage users to participate in their event later in 2017 and promote Human Rights events from around Canada.
 images:
   - chrc-3.png
   - chrc-4.png

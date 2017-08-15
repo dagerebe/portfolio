@@ -1,4 +1,4 @@
----
+ ---
 layout: work
 project-title: OTTAWA NETWORK FOR EDUCATION
 meta: Website Redesign
